@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  z-index: 0;
+}
+body {
+  background-image: url("./blur.jpg");
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.veri {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+.veri p {
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.veri input {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  margin: 15px 0;
+  border-radius: 10px;
+  background-color: red;
+  color: whitesmoke;
+}
+
+.buttonbosluk {
+  margin: 15px 0;
+  padding: 5px 15px;
+}
+.veri .cont {
+  margin-top: 50%;
+}
+.turnuvaName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 0, 0);
+  margin-top: 15px;
+  font-size: 25px;
+}
+.sonuc {
+  width: 0;
+  height: 0;
+}
+.active {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 200px;
+  background-color: whitesmoke;
+  color: black;
+}
+.sonuc .haftalar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+  font-size: 20px;
+  color: rgb(63, 2, 230);
+}
+.sonuc .haftalar .maclar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+}
+.sonuc button {
+  background-color: aquamarine;
+}
+::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.yakında {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin: auto 0 0 0;
+}
+
+footer .designed {
+  width: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  font-size: 20px;
+  color: whitesmoke;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.checkbox input[type="checkbox"] {
+  color: whitesmoke;
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+  display: flex;
+}
+.checkbox label {
+  color: whitesmoke;
+  margin-left: 10px;
+}
+.iconpack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+.iconpack i {
+  font-size: 40px;
+}
+.baygec {
+  color: rgb(255, 45, 45);
+}
